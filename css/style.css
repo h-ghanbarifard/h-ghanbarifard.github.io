@@ -61,7 +61,9 @@ header .menu-top .search{
 /* شروع تبلیغات */
 
 header .logo{
-	margin-left:130px;
+	width:1018px;
+	margin-left:auto;
+	margin-right:auto;
 	margin-top:35px;
 	margin-bottom:35px;
 }
@@ -470,7 +472,7 @@ header .logo{
 /*****************************************************************************/
 
 
-footer{
+<!--footer{
 	background:#202020 url(../img/footer.png) top center repeat-x;
 	margin-top:50px;
 	border-top:1px solid #111;
@@ -497,4 +499,52 @@ footer .footer-div .allfooter .footer-post{
 footer .postfooter{
 	list-style: none;
 	margin-top: 20px;
+}-->
+footer {
+	width:100%;
+	background: #202020 url(../img/footer.png) top center repeat-x;
+	border-top: 1px solid #111;
+	padding-top: 50px;
+	height: 521px;
+}
+footer .all{
+	width:990px;
+	height:300px;
+	margin-left:auto;
+	margin-right:auto;
+}
+footer .all .fleft{
+	float:left;
+	width:48%;
+	height:auto;
+	margin-right:8px;
+}
+footer .all .fright{
+	margin-top:50px;
+	float:right;
+	width:48%;
+	height:auto;
+}
+footer .all .fright p{
+	border-bottom:10px;
+	color: rgb(255, 255, 255);
+	border-bottom-color: rgb(51, 51, 51);
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+footer .all .fright a{
+	color: rgb(239, 69, 52);
+	text-decoration:none;
+}
+footer .all .fright ul li{
+	display:inline;
+	font-size:9px;
+	margin-right:8px;
+}
+footer .all .fleft .fh3{
+	color: rgb(255, 255, 255);
+	line-height: 20px;
+	font-family: "Yekan",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 18px;
+	font-weight: normal;
 }
