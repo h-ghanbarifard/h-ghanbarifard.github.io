@@ -18,6 +18,9 @@ header .menu-top{
 	box-shadow:0 2px 3px rgba(0,0,0,0.25);
 	direction:rtl;
 }
+header .menu-top .search .textb{
+	border-radius:15px;
+}
 
 header .menu-top .nav .nav-menu{
     height: 35px;
@@ -167,6 +170,25 @@ header .logo{
 	padding-bottom: 5px;
 	position: relative;
 	min-height: 40px;
+}
+#main .matlab .boximage .boximagepost ol li{
+	border-bottom: 1px dotted #ddd;
+	margin-bottom: 5px;
+	font-family: 'Yekan',Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 13px;
+	list-style:none;
+	margin-right:18px;
+	position:relative;
+	text-align:left;
+	font-size:12px;
+}
+#main .matlab .boximage .boximagepost ol li a{
+	text-decoration:none;
+	color:#404040;
+}
+#main .matlab .boximage h4 span{
+	padding-right:10px;
+	background:#f9f9f9;
 }
 #main .matlab .boximage div .space{
 	margin-top:5px;
